@@ -23,26 +23,37 @@
     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolor!</div>
     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolor!</div>
     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolor!</div>
+<!-- 
+    <form action="/ma-page-de-traitement" method="post">
 
-    <form id="contact-form" class="contact-form">
-        <div class="form-row">
-          <label for="name">Nom</label>
-          <input id="name" name="name" type="text" required="">
-        </div>
 
-        <div class="form-row">
-          <label for="email">Email</label>
-          <input id="email" name="email" type="email" required="">
-        </div>
+        <label for="name">Nom&nbsp;:</label>
+        <input type="text" id="name" name="user_name" />
 
-        <div class="form-row">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" required=""></textarea>
-        </div>
+        <label for="mail">Adresse&nbsp;Mail&nbsp;:</label>
+        <input type="email" id="mail" name="user_mail" />
 
+        <label for="msg">Votre&nbsp;Message&nbsp;:</label>
+        <textarea id="msg" name="user_message"></textarea>
         <button class="btn primary" type="submit">Envoyer</button>
-      </form>
+    </form> -->
 
+<form
+  action="https://formspree.io/f/movgwkqq"
+  method="POST"
+>
+  <label>
+    Votre E-mail:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Votre message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <button type="submit">Envoyer</button>
+</form>
 
 </body>
+
 </html>
