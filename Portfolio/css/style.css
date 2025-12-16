@@ -22,10 +22,30 @@ header {
 footer {
     background-color: #4D4A58;
     color: white;
-    padding-top: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding-left: 2rem;
 }
 
-nav {
+footer nav{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+
+footer section{
+    display: flex;
+    gap: 29rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header nav {
     display: flex;
     flex-direction: row;
     gap: 6rem;
@@ -37,12 +57,12 @@ nav a {
     color: #fff;
 }
 
-nav a:hover{
+nav a:hover {
     text-decoration-color: #9593D9 !important;
     text-decoration: underline 3px;
 }
 
-.rect1{
+.rect1 {
     max-width: 250px;
     background-color: #D9D9D9;
     border: 5px solid #9593D9;
@@ -54,6 +74,7 @@ nav a:hover{
     padding-right: 2rem;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
+    text-decoration: none !important;
 }
 
 h1 {
