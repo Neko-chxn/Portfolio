@@ -86,10 +86,6 @@ footer>h2 {
     padding-right: 20rem;
 }
 
-.aled {
-    width: 5rem;
-    border-radius: 30px;
-}
 
 img {
     width: 20rem;
@@ -114,4 +110,17 @@ img {
 .intro img{
     width: 40%;
 }
-    
+
+.intro2{
+    display: flex;
+    padding-left: 10rem;
+    align-items: center;
+    padding-top: 2rem;
+    margin-left: 10rem;
+}
+
+.intro2 img{
+    width: 6rem;
+    /* border-radius: 50%; */
+    margin-right: 10rem;
+}
